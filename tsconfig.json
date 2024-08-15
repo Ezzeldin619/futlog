@@ -20,7 +20,9 @@
     "baseUrl": "src",
     "paths": {
       "@/*": ["./*"],
-      "ui": ["./components/ui/exports.ts"]
+      "ui": ["./components/ui/exports.ts"],
+      "components/*": ["./components/*"],
+      "components": ["./components/exports.ts"]
     }
   },
   "include": [

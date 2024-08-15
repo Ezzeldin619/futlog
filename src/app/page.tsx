@@ -1,9 +1,12 @@
+import { Navbar } from "components";
 import { Button } from "ui";
 
 export default function Home() {
   return (
-    <main>
-      <Button> Click Me</Button>
+    <main className="bg-zinc-400 h-[100vh]">
+      <Navbar />
+
+      <div>Whatever</div>
     </main>
   );
 }
